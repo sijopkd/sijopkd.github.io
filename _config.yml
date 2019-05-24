@@ -294,7 +294,7 @@ defaults:
       share: true
       related: true
    #Pages
-- scope:
+  - scope:
       path: ""
       type: pages   
     values:
