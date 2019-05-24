@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Sijo VM"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Sijo VM"
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,30 +106,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Sijo VM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Data enthusiast"
+  location         : "Kerala"
+  email            : "sijopkd@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+       url: mailto:sijopkd@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+       #url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+       #url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+       url: "https://www.facebook.com/vm.sijo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+       url: "https://github.com/sijopkd"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sijovm/"
 
 # Site Footer
 footer:
@@ -286,6 +286,17 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+   #Pages
+- scope:
+      path: ""
+      type: pages   
     values:
       layout: single
       author_profile: true
