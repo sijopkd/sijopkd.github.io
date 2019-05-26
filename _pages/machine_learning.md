@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: archive-single
 permalink: /machine-learning/
 title: "Machine learning posts by tags"
 author_profile: true
