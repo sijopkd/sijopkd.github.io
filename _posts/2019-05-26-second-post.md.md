@@ -19,7 +19,7 @@ Haberman data contains information from a study conducted between 1958 to 1969 o
 More info on auxillay nodes and breast cancer: https://www.medicalnewstoday.com/articles/319713.php
 
 
-
+# @hidden_cell
 ```python
 import numpy as np
 import pandas as pd
@@ -32,6 +32,7 @@ warnings.filterwarnings('ignore')
 
 
 ```python
+# @hidden_cell
 haberman = pd.read_csv('haberman.csv')
 survived = haberman[haberman.status == 1]
 died = haberman[haberman.status == 2]
