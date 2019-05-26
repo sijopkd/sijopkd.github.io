@@ -39,7 +39,7 @@ Haha image from 2nd post
 <img src="{{site.url}}{{site.baseurl}}/images/output_18_0.jpg" alt="Smiley asdasface" >
 
 Try again Image
-<img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley face" >
+<img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" >
 Maths
 
 $$z = x+y$$
