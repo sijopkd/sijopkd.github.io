@@ -21,8 +21,11 @@ comments: true
 * first star
 + Second
 
+test
+
+
 <figure>
-  <img src="/images//images/output_18_0.jpg" alt="this is a placeholder image">
+  <img src="/images/output_18_0.jpg" alt="this is a placeholder image">
   <figcaption>This is a figure caption.</figcaption>
 </figure>
 
