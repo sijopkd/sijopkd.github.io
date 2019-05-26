@@ -240,7 +240,7 @@ for index, feature in enumerate(features):
     plt.subplot(1,3, index+1)
     plot_pdf_and_cdf(haberman, feature)
 ```
-<img src="{{site.url}}{{site.baseurl}}/images/sijopkd@gmail.com_1/output_18_0.jpg" alt="Smiley face" >
+<img src="{{site.url}}{{site.baseurl}}/_posts/output_18_0.png" alt="Smiley face" >
 
 ![png](output_18_0.png)
 
