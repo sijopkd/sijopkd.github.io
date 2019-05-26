@@ -28,6 +28,8 @@ Image
 With size
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/first_post.jpg" alt="Smiley face" height="42" width="42">
 
+Haha image from 2nd post
+<img src="{{site.url}}{{site.baseurl}}/_posts/output_18_0.png" alt="Smiley face" >
 Maths
 
 $$z = x+y$$
