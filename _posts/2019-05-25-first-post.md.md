@@ -33,13 +33,13 @@ Image
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/first_post.jpg" alt="Smiley face" >
 
 With size
-<img src="{{site.url}}{{site.baseurl}}/images/first_post/first_post.jpg" alt="Smiley face" height="42" width="42">
+<img src="{{site.url}}{{site.baseurl}}/images/first_post/first_post.jpg" alt="Smiley face" height="100" width="100">
 
 Haha image from 2nd post
 <img src="{{site.url}}{{site.baseurl}}/_posts/output_18_0.jpg" alt="Smiley asdasface" >
 
 Try again Image
-<img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" >
+<img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" height="100" width="100">
 Maths
 
 $$z = x+y$$
