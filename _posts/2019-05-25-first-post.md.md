@@ -21,6 +21,10 @@ comments: true
 * first star
 + Second
 
+<figure>
+  <img src="/images//images/output_18_0.jpg" alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
 
 Image
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/first_post.jpg" alt="Smiley face" >
