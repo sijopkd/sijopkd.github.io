@@ -43,13 +43,13 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          :  ['name', 'email', 'url', 'message']
+  allowedFields          : ["name", "email", "url", "message"]
   branch                 :  "master"
   commitMessage          : "New comment by {fields.name}"
   filename               :  comment-{@timestamp}
   format                 :  "yml"
   moderation             :  true
-  path                   :  "/_data/comments/{options.slug}" (default)
+  path                   :  "/_data/comments/{options.slug}" 
   requiredFields         :  ['name', 'email', 'message']
   transforms:
     email                :  "md5"
