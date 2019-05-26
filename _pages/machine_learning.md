@@ -9,4 +9,6 @@ comments: true
 
 Machine learning 
 
-{% for post in
+{% for post in site.posts %}
+{% include archive-single.html %}
+{% endfor %}
