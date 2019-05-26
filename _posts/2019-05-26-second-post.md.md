@@ -4,7 +4,7 @@ date: 2019-05-26
 tags: [second, post]
 header:
   image: "images/first_post.jpg"
-excerpt: "First post, What, Is, Excerpt"
+excerpt: "2nd post, lol, Is, Excerpt"
 mathjax: "true"
 comments: true
 
@@ -240,7 +240,7 @@ for index, feature in enumerate(features):
     plt.subplot(1,3, index+1)
     plot_pdf_and_cdf(haberman, feature)
 ```
-<img src="{{site.url}}{{site.baseurl}}/_posts/output_18_0.png" alt="Smiley face" >
+<img src="{{site.url}}{{site.baseurl}}/_posts/output_18_0.jpg" alt="Smiley face" >
 
 ![png](output_18_0.png)
 
