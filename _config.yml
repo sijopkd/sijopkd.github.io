@@ -112,8 +112,8 @@ author:
   location         : "Kerala"
   email            : "sijopkd@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    #- #label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
        #url: "https://sijopkd@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -123,13 +123,13 @@ author:
        #url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-       #url: "https://www.facebook.com/vm.sijo"
+       url: "https://www.facebook.com/vm.sijo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       #url: "https://github.com/sijopkd"
+       url: "https://github.com/sijopkd"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-       #url: "https://www.linkedin.com/in/sijovm/"
+       url: "https://www.linkedin.com/in/sijovm/"
 
 # Site Footer
 footer:
