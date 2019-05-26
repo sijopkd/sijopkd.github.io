@@ -3,7 +3,7 @@ title: "First post test"
 date: 2019-05-25
 tags: [first, post]
 header:
-  image: "images/first_post/first_post.jpg"
+  image: "images/first_post.jpg"
 excerpt: "First post, What, Is, Excerpt"
 mathjax: "true"
 
