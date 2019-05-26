@@ -6,6 +6,7 @@ header:
   image: "images/first_post.jpg"
 excerpt: "First post, What, Is, Excerpt"
 mathjax: "true"
+comments: true
 
 ---
 
