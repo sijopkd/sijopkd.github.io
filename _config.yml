@@ -293,6 +293,7 @@ defaults:
       comments:  true
       share: true
       related: true
+      tag: false
    #Pages
   - scope:
       path: ""
@@ -304,3 +305,4 @@ defaults:
       comments:      true
       share: true
       related: true
+      tag: false
