@@ -294,6 +294,7 @@ defaults:
       share: true
       related: true
       tag: false
+      tags: false
    #Pages
   - scope:
       path: ""
@@ -306,3 +307,4 @@ defaults:
       share: true
       related: true
       tag: false
+      tags: false
