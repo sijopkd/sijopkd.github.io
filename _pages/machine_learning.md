@@ -1,13 +1,11 @@
 ---
 layout: archive
-permalink: /machine-learning/
-title: "Machine learning posts by tags"
+permalink: /blog/
+title: "Blog posts"
 author_profile: true
 comments: true
 ---
 
-
-Machine learning 
 
 <ul>
   {% for post in site.posts %}
