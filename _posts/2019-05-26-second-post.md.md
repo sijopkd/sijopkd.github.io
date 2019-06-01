@@ -2,8 +2,6 @@
 title: "2ndd post test"
 date: 2019-05-26
 tags: [second, post]
-header:
-  image: "images/first_post.jpg"
 excerpt: "2nd post, lol, Is, Excerpt"
 mathjax: "true"
 comments: true
