@@ -25,7 +25,7 @@ test
 
 
 <figure>
-  <img src="/images/output_18_0.jpg" alt="this is a placeholder image">
+
   <figcaption>This is a figure caption.</figcaption>
 </figure>
 
