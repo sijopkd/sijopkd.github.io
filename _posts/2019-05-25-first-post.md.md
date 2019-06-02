@@ -39,7 +39,10 @@ Haha image from 2nd post change from post
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley asdasface" >
 
 Try again Image
+
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" height="300" width="200">
+<figure><figcaption>This is a figure caption.</figcaption></figure>
+
 Maths
 
 $$z = x+y$$
