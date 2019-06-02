@@ -40,6 +40,21 @@ Try again Image
 <img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" height="300" width="200">
 <figure><figcaption>This is a figure caption.</figcaption></figure>
 
+
+<figure>
+    <a href="/images/first_post/output_18_0.jpg"><img src="/images/first_post/output_18_0.jpg"></a>
+    <figcaption>Both a href and img src </figcaption>
+</figure>
+
+<figure>
+    <img src="/images/first_post/output_18_0.jpg"></a>
+    <figcaption>img src </figcaption>
+</figure>
+
+<figure>
+    <a href="/images/first_post/output_18_0.jpg"></a>
+    <figcaption>a href only </figcaption>
+</figure>
 Maths
 
 $$z = x+y$$
