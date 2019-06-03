@@ -4,16 +4,16 @@ date: 2019-06-04
 excerpt: "Hello world! - The first post"
 mathjax: "true"
 comments: true
+categories: [first post]
 
 ---
 
+Hello! 
 
-## Hello World
+> Let this post be the start of many more posts to come! 
 
+This is just a placeholder post. I was confused about what to include here and finally, decided to add one of my favorite youtube videos. I listen 
+to this whenever I feel lazy! 
 
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/M7RwzSuvTgs" frameborder="0" allowfullscreen></iframe>
 
-<img src="{{site.url}}{{site.baseurl}}/images/first_post/output_18_0.jpg" alt="Smiley faasdce" height="300" width="200">
-<figure><figcaption>This is a figure caption.</figcaption></figure>
-
-
-$$z = x+y$$
