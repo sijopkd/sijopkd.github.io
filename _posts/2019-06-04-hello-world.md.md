@@ -4,7 +4,6 @@ date: 2019-06-04
 excerpt: "Hello world! - The first post"
 mathjax: "true"
 comments: true
-categories: [first post]
 
 ---
 
