@@ -7,7 +7,6 @@ comments: true
 
 header:
     image: /posts/lyft.jpeg            # Twitter (use 'overlay_image')
-	overlay_image: /posts/lyft.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
     teaser: /posts/lyft.jpeg   # Shrink image to 575x216
     caption: "Photo credit: [**Driving vision news**](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)"
