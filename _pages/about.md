@@ -57,8 +57,8 @@ July 2016 - March 2019 <br />
 - Participation at National School Games<br />
 	* 2007-08 - Mumbai, India <br />
 	* 2009-10 - Gulbarga, India <br />
-	* 2011 - Pune, India <br />
-	* 2012 - New Delhi, India <br />
+	* 2010-11 - Pune, India <br />
+	* 2011-12 - New Delhi, India <br />
 
 - BITS Open Sports Meet 
 	* 2012 - Silver Medal 
