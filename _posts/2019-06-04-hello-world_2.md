@@ -259,21 +259,30 @@ As one of the next steps, we could try out other model architectures. Hopefully,
 ### **References**
 [**Lyft 3D Object Detection for Autonomous Vehicles**
 *Can you advance the state of the art in 3D object detection?*www.kaggle.com](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
+
 [**Reference Model**
 *Download Open Datasets on 1000s of Projects + Share Projects on One Platform. Explore Popular Topics Like Government…*www.kaggle.com](https://www.kaggle.com/gzuidhof/reference-model)
+
 [**U-Net: Convolutional Networks for Biomedical Image Segmentation**
 *There is large consent that successful training of deep networks requires many thousand annotated training samples. In…*arxiv.org](https://arxiv.org/abs/1505.04597)
+
 [**lyft/nuscenes-devkit**
 *Welcome to the devkit for the Lyft Level 5 AV dataset! This devkit shall help you to visualise and explore our dataset…*github.com](https://github.com/lyft/nuscenes-devkit)
+
 [**IREDs For Face Recognition From Everlight - DVN**
 *Everlight have released three new infrared emitters for automotive applications. Their VS-FI3535 series is suitable for…*www.drivingvisionnews.com](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)
+
 [**Coordinate Systems in Automated Driving Toolbox - MATLAB & Simulink**
 *Automated Driving Toolbox™ uses these coordinate systems: World: A fixed universal coordinate system in which all…*www.mathworks.com](https://www.mathworks.com/help/driving/ug/coordinate-systems.html)
+
 [**Understanding Semantic Segmentation with UNET**
 *A Salt Identification Case Study*towardsdatascience.com](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 
+
 ### Project repository & Kaggle Profile
+
 [**sijopkd/3D-Object-Detection-Lyft**
 *You can't perform that action at this time. You signed in with another tab or window. You signed out in another tab or…*github.com](https://github.com/sijopkd/3D-Object-Detection-Lyft)
+
 [**Sijo VM | Kaggle**
 *Download Open Datasets on 1000s of Projects + Share Projects on One Platform. Explore Popular Topics Like Government…*www.kaggle.com](https://www.kaggle.com/sijovm)
