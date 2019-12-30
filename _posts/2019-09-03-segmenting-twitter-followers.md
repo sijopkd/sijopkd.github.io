@@ -1,5 +1,12 @@
+---
+title: "Segmenting Twitter Followers using PCA and Clustering"
+date: 2019-09-03
+excerpt: "Hello world! - The first post"
+mathjax: "true"
+comments: true
 
-# Segmenting Twitter Followers using PCA and Clustering
+---
+
 
 The data was collected as part of a study using followers of the Twitter account of a huge consumer brand. The brand wants to understand its twitter audience better to fine-tune its Twitter posts. To achieve this, they collected every twitter post of a sample of its followers and each post was examined by Amazon’s Mechanical Turk and was categorized into different interest areas.
 >  The task is to analyze this data and identify any interesting market segments among the social media followers.
