@@ -1,9 +1,11 @@
 ---
+
 title: "3D-Object Detection for autonomous vehicles"
 date: 2019-12-14
 excerpt: "Project on 3D Object Detection using Lyft's level5 dataset: ranked in the top 20% in a live kaggle competition"
 mathjax: "true"
 comments: true
+
 ---
 
 
