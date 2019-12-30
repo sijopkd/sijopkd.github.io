@@ -72,7 +72,7 @@ July 2016 - March 2019 <br />
 ### Running
 - Runner-up in the Happiest Minds 5km run, 2018
 	
-### Academics 
+### Others
 - Hackathon Winner, 2019
 	* Organized by yuuvis by Optimal Systems 
 	
