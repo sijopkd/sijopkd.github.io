@@ -20,17 +20,44 @@ sports, or fitness, connect with me!
 ## Education
 
 - The University of Texas at Austin - Red McCombs School of Business <br />
-Master's degree in Business Analytics \n
-May 2020 \
+Master's degree in Business Analytics <br />
+May 2020 <br />
 
-- Birla Institute of Technology and Science, Pilani \
-Bachelor's degree in Mechanical Engineering \
-May 2016 \
+- Birla Institute of Technology and Science, Pilani <br />
+Bachelor's degree in Mechanical Engineering <br />
+May 2016 <br />
 
 ## Experience
 
-- Capgemini Technology Services India Limited \
-Consultant, Insights & Data Division \
-July 2016 - March 2019 \
+- Capgemini Technology Services India Limited <br />
+Consultant, Insights & Data Division <br />
+July 2016 - March 2019 <br />
+
+## Awards
+
+Kerala State Tennis Championships, 2009 <br />
+Silver Medal <br />
+
+National School Games, 2008 <br />
+Mumbai, India  <br />
+
+Kerala State Tennis Championships, 2010 <br />
+Silver Medal <br />
+
+National School Games, 2010
+Gulbarga, India 
+
+Kerala State Tennis Championships, 2011
+Gold Medal 
+
+National School Games, 2011
+Pune, India 
+
+Kerala State Tennis Championships, 2012
+Silver Medal 
+
+National School Games, 2012
+Delhi, India 
+
 
 
