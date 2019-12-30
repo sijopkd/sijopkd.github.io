@@ -6,8 +6,8 @@ excerpt: "Project on 3D Object Detection using Lyft's level5 dataset: ranked in 
 mathjax: "true"
 comments: true
 image:
-  feature: /posts/output_18_0.jpg
-  thumb: /posts/output_18_0.jpg
+  feature: /output_18_0.jpg
+  thumb: /output_18_0.jpg
   
 ---
 
