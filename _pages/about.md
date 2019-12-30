@@ -51,3 +51,14 @@ July 2016 - March 2019 <br />
 
 - Hackathon Winner, 2019
 	* Organized by yuuvis by Optimal Systems 
+	
+- BITS Open Sports Meet 
+	* 2012 - Silver Medal 
+	* 2013 - Gold Medal 
+
+- Outstation Sports Fests
+	* 2014, Gold Medal, IIT BHU
+	* 2015, Gold Medal, IIT Roorkee 
+	* 2016, Gold Medal, National Law University 
+
+
