@@ -5,13 +5,6 @@ excerpt: "Project on 3D Object Detection using Lyft's level5 dataset: ranked in 
 mathjax: "true"
 comments: true
 
-header:
-    image: /posts/lyft_header.jpg
-	overlay_image: /posts/lyft_header.jpg 	# Twitter (use 'overlay_image')
-	overlay_filter: 0.15
-    teaser: /posts/lyft_header.jpg   # Shrink image to 575x216
-    caption: "Photo credit: [**Driving vision news**](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)"
-
 ---
 
 
