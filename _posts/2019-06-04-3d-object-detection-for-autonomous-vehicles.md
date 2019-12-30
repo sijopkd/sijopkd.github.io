@@ -5,7 +5,7 @@ excerpt: "Project on 3D Object Detection using Lyft's level5 dataset: ranked in 
 mathjax: "true"
 comments: true
 header:
-  teaser: "/posts/lyft.jpeg"
+  teaser: /posts/lyft.jpeg
 img: "/posts/lyft.jpeg"
 
 ---
