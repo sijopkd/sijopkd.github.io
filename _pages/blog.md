@@ -4,7 +4,6 @@ permalink: /blog/
 title: "Blog posts"
 author_profile: true
 comments: true
-exclude_from_search: true
 ---
 
 
