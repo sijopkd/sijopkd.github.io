@@ -4,9 +4,12 @@ date: 2019-12-14
 excerpt: "Project on 3D Object Detection using Lyft's level5 dataset: ranked in the top 20% in a live kaggle competition"
 mathjax: "true"
 comments: true
+
 header:
-  teaser: /posts/lyft.jpeg
-img: "/posts/lyft.jpeg"
+    image: /posts/lyft.jpeg            # Twitter (use 'overlay_image')
+    overlay_filter: 0.15
+    teaser: /posts/lyft.jpeg   # Shrink image to 575x216
+    caption: "Photo credit: [**Driving vision news**](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)"
 
 ---
 
