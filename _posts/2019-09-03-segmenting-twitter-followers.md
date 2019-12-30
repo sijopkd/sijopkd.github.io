@@ -2,7 +2,7 @@
 
 title: "Segmenting Twitter Followers using PCA and Clustering"
 date: 2019-09-03
-excerpt: "Hello world! - The first post"
+excerpt: "Segement the twitter followers based on topics of their posts using PCA and K-Means Clustering"
 mathjax: "true"
 comments: true
 
