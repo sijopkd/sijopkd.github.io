@@ -20,7 +20,7 @@ In this blog post, we share with you our learnings from a K[aggle competition by
 
 **Abstract: **With the rapid evolution in the world of technology, it becomes increasingly important for the automotive sector to keep up with the fast pace, just like any other industry. In recent times, self-driving cars have gained a lot of traction but there is a huge gap in expectation and the current state. On those lines, our project focuses on 3D Object Detection of Lyft’s autonomous vehicles.
 
-### **Why you don’t have an autonomous car yet?**
+## **Why you don’t have an autonomous car yet?**
 
 Self Driving Vehicles are one of the most hyped technologies of the modern decade. Even though many companies may brand their driver assistance technology as “Autopilot” a truly self-driving vehicle, without a human driver on open roads, has not yet become a reality.
 
