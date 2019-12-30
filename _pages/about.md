@@ -61,4 +61,14 @@ July 2016 - March 2019 <br />
 	* 2015, Gold Medal, IIT Roorkee 
 	* 2016, Gold Medal, National Law University 
 
+## LEADERSHIP EXPERIENCE AND ACTIVITIES
+
+- Campdiaries Apr 2017 - Dec 2018
+	* Volunteer 
+- BITS-Pilani Lawn Tennis Team Aug 2012 - May 2016
+	* Captain (Jan 2015 – May 2015) 
+-  Kairali: Association of students from Kerala  Sep 2012 - May 2015
+	* Secretary (Aug 2014 – May 2015)
+-  Mechanical Engineering Association – Sep 2013 - May 2015
+	* Design Team head (Aug 2014 – May 2015) 
 
