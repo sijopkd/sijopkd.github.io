@@ -6,7 +6,7 @@ mathjax: "true"
 comments: true
 header:
   teaser: "/posts/lyft.jpeg"
-img: /posts/lyft.jpeg
+img: "/posts/lyft.jpeg"
 
 ---
 
