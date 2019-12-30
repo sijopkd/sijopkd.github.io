@@ -16,7 +16,7 @@ Journey with 3D object detection using Lyft’s Level 5 Dataset
 
 In this blog post, I share with you our learnings from a [Kaggle competition by Lyft](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles). Let me take you through our journey.
 
-> Abstract: **With the rapid evolution in the world of technology, it becomes increasingly important for the automotive sector to keep up with the fast pace, just like any other industry. In recent times, self-driving cars have gained a lot of traction but there is a huge gap in expectation and the current state. On those lines, our project focuses on 3D Object Detection of Lyft’s autonomous vehicles.
+> **Abstract**: With the rapid evolution in the world of technology, it becomes increasingly important for the automotive sector to keep up with the fast pace, just like any other industry. In recent times, self-driving cars have gained a lot of traction but there is a huge gap in expectation and the current state. On those lines, our project focuses on 3D Object Detection of Lyft’s autonomous vehicles.
 
 ## **Why you don’t have an autonomous car yet?**
 
