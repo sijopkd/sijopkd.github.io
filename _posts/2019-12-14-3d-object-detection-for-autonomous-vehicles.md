@@ -1,6 +1,4 @@
 ---
-header:
-	teaser: /posts/lyft_header.jpg
 	
 title: "3D-Object Detection for autonomous vehicles"
 date: 2019-12-14
