@@ -1,4 +1,7 @@
 ---
+header:
+	teaser: /posts/lyft_header.jpg
+	
 title: "Segmenting Twitter Followers using PCA and Clustering"
 date: 2019-09-03
 excerpt: "Hello world! - The first post"
