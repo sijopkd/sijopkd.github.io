@@ -19,8 +19,8 @@ sports, or fitness, connect with me!
 
 ## Education
 
-- The University of Texas at Austin - Red McCombs School of Business \
-Master's degree in Business Analytics \
+- The University of Texas at Austin - Red McCombs School of Business \n
+Master's degree in Business Analytics \n
 May 2020 \
 
 - Birla Institute of Technology and Science, Pilani \
