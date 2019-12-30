@@ -9,9 +9,7 @@ img: /posts/lyft.jpeg
 ---
 
 
-# 3D-Object Detection for autonomous vehicles
-
-Our Journey with 3D object detection using Lyft’s Level 5 Dataset
+Journey with 3D object detection using Lyft’s Level 5 Dataset
 
 ![Source: [https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)](https://cdn-images-1.medium.com/max/2880/1*QKKoMVg2U5HjClRJgd8bIg.jpeg)*Source: [https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)*
 
