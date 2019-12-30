@@ -1,9 +1,11 @@
 ---
-layout: portfolio
-permalink: /blog/
-title: "Blog posts"
-author_profile: true
-comments: true
+
+title: Portfolio
+layout: collection
+permalink: /portfolio/
+collection: portfolio
+entries_layout: grid
+
 ---
 
 
