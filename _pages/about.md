@@ -48,6 +48,7 @@ July 2016 - March 2019 <br />
 
 ## Awards
 
+### Lawn Tennis 
 - Kerala State Tennis Championships, 2009 <br />
 	* 2011 - Gold Medal <br />
 	* 2008, 2010, 2012 - Silver Medal <br />
@@ -59,12 +60,6 @@ July 2016 - March 2019 <br />
 	* 2011 - Pune, India <br />
 	* 2012 - New Delhi, India <br />
 
-- Pratibha award by Gandhi Study Center,Kerala, 2012  <br />
-	* Awared for securing the highest marks in the State in the Higher Secondary Examination, 2012 <br />
-
-- Hackathon Winner, 2019
-	* Organized by yuuvis by Optimal Systems 
-	
 - BITS Open Sports Meet 
 	* 2012 - Silver Medal 
 	* 2013 - Gold Medal 
@@ -74,5 +69,21 @@ July 2016 - March 2019 <br />
 	* 2014, Gold Medal, IIT BHU
 	* 2016, Gold Medal, National Law University 
 
+### Running
+- Runner-up in the Happiest Minds 5km run 
+* 2018
+	
+### Academics 
+- Hackathon Winner, 2019
+	* Organized by yuuvis by Optimal Systems 
+	
+- Pratibha award by Gandhi Study Center,Kerala, 2012  <br />
+	* Awared for securing the highest marks in the State in the Higher Secondary Examination, 2012 <br />
 
 
+	
+
+## Certifications
+
+- Exam 70-773 Analyzing Big Data with Microsoft R 
+	* Issued by Microsoft 
