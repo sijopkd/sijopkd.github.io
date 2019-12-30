@@ -19,7 +19,7 @@ sports, or fitness, connect with me!
 
 ## Education
 
-- The University of Texas at Austin - Red McCombs School of Business \n
+- The University of Texas at Austin - Red McCombs School of Business <br />
 Master's degree in Business Analytics \n
 May 2020 \
 
