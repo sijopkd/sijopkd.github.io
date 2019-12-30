@@ -41,7 +41,7 @@ July 2016 - March 2019 <br />
 
 
 - Participation at National School Games<br />
--- 2008 - Mumbai, India <br />
+	* 2008 - Mumbai, India <br />
 -- 2010 - Gulbarga, India <br />
 2011 - Pune, India <br />
 2012 - New Delhi, India <br />
