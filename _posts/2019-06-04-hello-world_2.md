@@ -14,11 +14,11 @@ image: /posts/lyft.jpeg
 Our Journey with 3D object detection using Lyft’s Level 5 Dataset
 
 ![Source: [https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)](https://cdn-images-1.medium.com/max/2880/1*QKKoMVg2U5HjClRJgd8bIg.jpeg)*Source: [https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/](https://www.drivingvisionnews.com/ireds-for-face-recognition-from-everlight/)*
-> By Alisha Fernandes, Haritha Maheshkumar, Kezhen Yang, Sijo VM, and Thirumurugan Vinayagam
 
-In this blog post, we share with you our learnings from a K[aggle competition by Lyft](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles). Let us take you through our journey.
 
-**Abstract: **With the rapid evolution in the world of technology, it becomes increasingly important for the automotive sector to keep up with the fast pace, just like any other industry. In recent times, self-driving cars have gained a lot of traction but there is a huge gap in expectation and the current state. On those lines, our project focuses on 3D Object Detection of Lyft’s autonomous vehicles.
+In this blog post, I share with you our learnings from a [Kaggle competition by Lyft](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles). Let us take you through our journey.
+
+> Abstract: **With the rapid evolution in the world of technology, it becomes increasingly important for the automotive sector to keep up with the fast pace, just like any other industry. In recent times, self-driving cars have gained a lot of traction but there is a huge gap in expectation and the current state. On those lines, our project focuses on 3D Object Detection of Lyft’s autonomous vehicles.
 
 ## **Why you don’t have an autonomous car yet?**
 
@@ -44,11 +44,11 @@ Given that there are many levels to evaluate self-driving vehicles, it leads us 
 
 1. **Perception**: Identification and classification of objects around the vehicle
 
-2. **Prediction: **Determination of the future position of predicted objects
+2. **Prediction**: Determination of the future position of predicted objects
 
 Since perception was the cornerstone issue behind the slowed development of self-driving vehicles, we decided to focus our effort to improve perception around a vehicle.
 
-### **Perception Problem**
+## **Perception Problem**
 
 Although perception is a primary issue, there is another reason that we chose to focus on perception over prediction in our project. A truly autonomous vehicle is projected to be a safer alternative to human drivers. Despite this, there has been one death related to a self-driving vehicle. The death was caused by an Uber self-driving car striking and killing a pedestrian because the vehicle was unable to sense the person before it hit them. Perception, therefore, is more than just interesting, it is a life-or-death issue relating to self-driving vehicles.
 
@@ -60,11 +60,11 @@ In modern systems, cameras are generally only used to find lane markings and to 
 
 Lidar sensors, on the other hand, is the main way that vehicles sense objects around them. Lidar, a modern update of sonar technology, finds objects by shooting millions of lasers, light beams, and finding the reflections of those lasers on objects. Behind the sensor, there is a computer that will make an almost instantaneous 3D map of the area around the vehicle called a point cloud, which will be discussed later. The map is generally low resolution, it does not capture extremely detailed information, but it does give the general shape of objects around the vehicle. Now that we knew about how perception works in cars we looked into which companies were working in this space.
 
-### **Why Lyft?**
+## **Why Lyft?**
 
 Of the various companies competing in the autonomous vehicles space, we chose to use Lyft because it believes in an open-source platform for the development of their self-driving vehicles. Based on the belief that no one person or company can solve self-driving technology, Lyft partners with Aptiv and Waymo to collaborate on the development of perception models for self-driving vehicles. Based on this open-source philosophy the company also sponsors Kaggle competitions. We took part in one of their active [competitions](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles) where the first place winner with the best perception model using Lyft’s data, could win $25,000. Let’s dive into the dataset we used.
 
-### **The Dataset**
+## **The Dataset**
 
 The Lyft dataset from the active Kaggle competition was a total of 85 GB. The data was split between testing and training sets and included a sample submission. The dataset gives a 3D point cloud and camera data from the Lyft test vehicles.
 
@@ -96,11 +96,11 @@ Each LiDAR sensor will shoot lasers 360 degrees to detect objects and get 3D spa
 
 All of these features along with the lidar and image data were split into training and testing sets and made up the large dataset for the competition.
 
-### **The Approach**
+## **The Approach**
 
 After we had a sense of what the 85 GB of Lyft data comprised of, we worked on the lidar data to find some general insights before using it in our model. Since we were unable to download the entire dataset to our local machines we decided to use Google Cloud Platform (GCP) to import our data into an instance and run our exploratory data analysis and model building on GCP. These are the [steps](https://github.com/KezhenY/Lyft_3D_Object_Detection_for_Autonomous_Vehicles/blob/master/GCP%20commands.txt) of how we set up GCP.
 
-### **Exploratory Analysis**
+## **Exploratory Analysis**
 
 After we imported the data using the Kaggle API onto GCP we explored the Lidar data.
 
@@ -108,11 +108,11 @@ After we imported the data using the Kaggle API onto GCP we explored the Lidar d
 
 The primary measures captured by the LiDAR are x,y,z coordinates of an object along with its length, width, height and yaw as shown in the visualization above. The metrics from the LiDAR sensors are also listed below with definitions for easy interpretation.
 
-1. **centre_x, centre_y, **and **centre_z **correspond to the coordinates of an object’s location on the XYZ plane.
+1. **centre_x, centre_y, and centre_z**correspond to the coordinates of an object’s location on the XYZ plane.
 
 2. **yaw** is the angle of the volume around the *z*-axis, making ‘yaw’ the direction the front of the vehicle/bounding box is pointing at while on the ground.
 
-3. **length, width, **and **height **represent the bounding volume in which the object lies.
+3. **length, width, and height**represent the bounding volume in which the object lies.
 
 After we found what measurements the LiDAR sensor gave us we plotted distributions of the various measurement metrics to see if we can gather insights from the plots. We started with the **x,y, and z measurements **then continued to the other variables.
 
@@ -122,7 +122,7 @@ The distributions of center_x and centre_y bring out the limitations of the LiDA
 
 As we can see from the above plot, most of the objects that are observed are cars. While this can be a true scenario as there is generally more number of cars on the roads when compared to other vehicles, this could also reflect the limitations of the LiDAR sensor.
 
-### **Data Preprocessing and Transformation**
+## **Data Preprocessing and Transformation**
 
 Since we were only using the lidar data as the starting point of our neural net, we did not explore the image data or the other data any further. At this point, we had explored all of our lidar data but found that since there are three different lidar sensors on the vehicle the data could not go directly into a neural network since there were duplicate parts of the surroundings captured by the three sensors. Because of this duplicate area problem, we transformed our data and overlayed similar parts of the lidar points with each other.
 
@@ -144,7 +144,7 @@ The next step is to voxelize the output which was a list of coordinates to an XY
 
 ![Transformation of lidars points into BEV](https://cdn-images-1.medium.com/max/3392/1*2nkstQWr2D5GvmfuK3BQ3Q.png)*Transformation of lidars points into BEV*
 
-### **Method Selection**
+## **Method Selection**
 
 After preprocessing our data to create the BEV for each lidar input we analyzed different neural networks to see which was best for our 3D object detection problem.
 
@@ -160,7 +160,7 @@ After deciding on semantic segmentation we moved on to decide which method our n
 
 Our model makes use of volumetric CNN. It uses 3D convolutional neural networks on voxelized 3D shapes. The main disadvantage of this is the lack of resolution due to data sparsity and computational cost. However, since we are dealing with objects which are huge, we believe that if we can fit a bounding box around the object, the model should be fine. Now that we had decided on volumetric CNN we decided to go ahead with U-Net.
 
-### **Modeling**
+## **Modeling**
 
 The U-Net is a convolution neural network developed by [Olaf Ronneberger](https://arxiv.org/search/cs?searchtype=author&query=Ronneberger%2C+O), [Philipp Fischer](https://arxiv.org/search/cs?searchtype=author&query=Fischer%2C+P), [Thomas Brox](https://arxiv.org/search/cs?searchtype=author&query=Brox%2C+T) for Biomedical Image Segmentation. It takes its name from its symmetric architecture. U-Net architecture consists of three main parts:
 
@@ -186,7 +186,7 @@ The output from the network is the region of interest from the BEV. As you can s
 
 A pixel value of 127.5 (in our case) is used as a threshold on our predictions to create binary target variables.
 
-### **Evaluation metric**
+## **Evaluation metric**
 
 The average precision is calculated at different thresholds of Intersection over Union (IoU) to evaluate the object detection model. The IoU of a 2D bounding box is the area of the overlapping region divided by the total area of union. The IoU is calculated at thresholds starting from 0.55 to 0.95 with a step size of 0.05.
 
@@ -198,7 +198,7 @@ For example, the object is a prediction at a threshold of 0.55, if the IoU is gr
 
 In a 3D context, we also evaluate the overlap in the Z-axis while calculating the average precision. ie. the one-dimensional intersection over union is calculated for the z-axis (height of the object).
 
-### **Phase 1 of training**
+## **Phase 1 of training**
 
 The competition journey is divided into two phases: the one before the ‘AHA’ moment and the one after. As explained earlier the input to our network was the BEV of the world around the car. The basic model that was trained for 10 epochs scored around 0.034 on the leaderboard. As this was a Kaggle competition, we were training our model twenty-four times seven and submitted the results to Kaggle. One of the main challenges was the training time: thirty epochs took around seventeen hours and we were limited to making only one to two changes per day. The few changes that mattered and boosted our score on the leaderboard are:
 
@@ -210,7 +210,7 @@ The competition journey is divided into two phases: the one before the ‘AHA’
 
 After this phase, the model scored 0.039 on the Kaggle public leaderboard. The network that resulted in this score was an ensemble of three models with epoch variations — eight, nine and ten.
 
-### **Phase 2 of training**
+## **Phase 2 of training**
 
 We extracted the map mask around the corresponding ego region from the dataset and used it along with the BEV of the lidar point as three additional channels.
 
@@ -218,7 +218,7 @@ We extracted the map mask around the corresponding ego region from the dataset a
 
 We can see the map mask in Fig B) of the above image. The map mask is the BEV of the roads and side paths. This gave us a boost in the leaderboard score — to 0.040. We tried tuning various aspects including learning rates, epochs, batch sizes, optimizers and so on. One of the biggest challenges was that, even in GCP, we could not do cross-validation due to memory limitations. This had a huge impact on our journey.
 
-### **Results**
+## **Results**
 
 Among all the combinations we tried, the model that worked the best was an ensemble of five models from epochs eight, nine, ten, twenty-nine and thirty. As you can see from the loss vs epoch plot on the left, the loss stabilizes after a certain epoch.
 
@@ -236,7 +236,7 @@ Here is a video we made using the predictions from our final model:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/5LN6mFjK6go" frameborder="0" allowfullscreen></iframe></center>
 
-### **Challenges**
+## **Challenges**
 
 We have learned quite a bit from this project and have had a lot of challenges along the way. Few of them are:
 
@@ -246,17 +246,17 @@ We have learned quite a bit from this project and have had a lot of challenges a
 
 * Our training times for models were extremely long: 30 Epochs took around 16–18 hours approximately to train a batch size of 16, around 30–40 minutes to ensemble 3–4 models. This sums up to 20 hours for one submission.
 
-### **Learnings**
+## **Learnings**
 
 Even though our learning curve through the journey was steep, our model still has quite a few limitations. It fails to predict the small objects from the BEV such as pedestrians, cyclists, etc., This is because one pixel in the BEV is a 40cm x 40 cm box in the real world. So, we think we could use the other available data (especially the images) to capture such objects. Here, we have used only one Lidar Sweep, but we can also think of using more than one! One other limitation is that the model assumes that all objects are the same height as that of the ego vehicles. This automatically adds to the error in the data.
 
-### Conclusion
+## Conclusion
 
 Given the above, we believe that our biggest constraint was computational power. We later came to know from our Professor Dr. Joydeep Ghosh that he has multiple GPUs set up in his lab but still finds it tough to tune these models (for his research paper on a similar topic). Well, that gave us some solace!
 
 As one of the next steps, we could try out other model architectures. Hopefully, the architectural variations along with our increased computational power should land us better accuracy, thus capturing the tiny pedestrians better!
 
-### **References**
+## **References**
 [**Lyft 3D Object Detection for Autonomous Vehicles**
 *Can you advance the state of the art in 3D object detection?*www.kaggle.com](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles)
 
@@ -279,7 +279,7 @@ As one of the next steps, we could try out other model architectures. Hopefully,
 *A Salt Identification Case Study*towardsdatascience.com](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 
 
-### Project repository & Kaggle Profile
+## Project repository & Kaggle Profile
 
 [**sijopkd/3D-Object-Detection-Lyft**
 *You can't perform that action at this time. You signed in with another tab or window. You signed out in another tab or…*github.com](https://github.com/sijopkd/3D-Object-Detection-Lyft)
