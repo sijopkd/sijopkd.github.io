@@ -36,28 +36,14 @@ July 2016 - March 2019 <br />
 ## Awards
 
 Kerala State Tennis Championships, 2009 <br />
-Silver Medal <br />
+2011 - Gold Medal <br />
+2009, 2010, 2012 - Silver Medal <br />
 
-National School Games, 2008 <br />
-Mumbai, India  <br />
 
-Kerala State Tennis Championships, 2010 <br />
-Silver Medal <br />
-
-National School Games, 2010
-Gulbarga, India 
-
-Kerala State Tennis Championships, 2011
-Gold Medal 
-
-National School Games, 2011
-Pune, India 
-
-Kerala State Tennis Championships, 2012
-Silver Medal 
-
-National School Games, 2012
-Delhi, India 
-
+Participation at National School Games<br />
+2008 - Mumbai, India <br />
+2010 - Gulbarga, India <br />
+2011 - Pune, India <br />
+2012 - New Delhi, India <br />
 
 
