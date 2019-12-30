@@ -70,8 +70,7 @@ July 2016 - March 2019 <br />
 	* 2016, Gold Medal, National Law University 
 
 ### Running
-- Runner-up in the Happiest Minds 5km run 
-* 2018
+- Runner-up in the Happiest Minds 5km run, 2018
 	
 ### Academics 
 - Hackathon Winner, 2019
@@ -85,5 +84,5 @@ July 2016 - March 2019 <br />
 
 ## Certifications
 
-- Exam 70-773 Analyzing Big Data with Microsoft R 
-	* Issued by Microsoft 
+- Exam 70-773 Analyzing Big Data with Microsoft R issued by Microsoft
+
