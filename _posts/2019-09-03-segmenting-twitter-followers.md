@@ -5,6 +5,8 @@ date: 2019-09-03
 excerpt: "Segement the twitter followers based on topics of their posts using PCA and K-Means Clustering"
 mathjax: "true"
 comments: true
+header:
+  teaser: "assets/images/twitter.png"
 
 ---
 
