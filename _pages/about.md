@@ -19,17 +19,17 @@ sports, or fitness, connect with me!
 
 ## Education
 
-The University of Texas at Austin - Red McCombs School of Business
+- The University of Texas at Austin - Red McCombs School of Business
 Master's degree in Business Analytics
 May 2020 
 
-Birla Institute of Technology and Science, Pilani
+- Birla Institute of Technology and Science, Pilani
 Bachelor's degree in Mechanical Engineering
 May 2016 
 
 ## Experience
 
-Capgemini Technology Services India Limited
+- Capgemini Technology Services India Limited
 Consultant, Insights & Data Division
 July 2016 - March 2019
 
