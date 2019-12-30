@@ -46,7 +46,8 @@ July 2016 - March 2019 <br />
 2011 - Pune, India <br />
 2012 - New Delhi, India <br />
 
-Pratibha award by Gandhi Study Center,Kerala, 2012  <br />
+- Pratibha award by Gandhi Study Center,Kerala, 2012  <br />
 Awared for securing the highest marks in the State in the Higher Secondary Examination, 2012 <br />
 
-
+- Hackathon Winner, 2019
+Organized by yuuvis by Optimal Systems 
