@@ -33,16 +33,29 @@ May 2016 <br />
 Consultant, Insights & Data Division <br />
 July 2016 - March 2019 <br />
 
+
+## Leadership Experience & Activities
+
+- Campdiaries Apr 2017 - Dec 2018
+	* Volunteer 
+- BITS-Pilani Lawn Tennis Team Aug 2012 - May 2016
+	* Captain (Jan 2015 – May 2015) 
+-  Kairali: Association of students from Kerala  Sep 2012 - May 2015
+	* Secretary (Aug 2014 – May 2015)
+-  Mechanical Engineering Association – Sep 2013 - May 2015
+	* Design Team head (Aug 2014 – May 2015) 
+
+
 ## Awards
 
 - Kerala State Tennis Championships, 2009 <br />
 	* 2011 - Gold Medal <br />
-	* 2009, 2010, 2012 - Silver Medal <br />
+	* 2008, 2010, 2012 - Silver Medal <br />
 
 
 - Participation at National School Games<br />
-	* 2008 - Mumbai, India <br />
-	* 2010 - Gulbarga, India <br />
+	* 2007-08 - Mumbai, India <br />
+	* 2009-10 - Gulbarga, India <br />
 	* 2011 - Pune, India <br />
 	* 2012 - New Delhi, India <br />
 
@@ -57,18 +70,9 @@ July 2016 - March 2019 <br />
 	* 2013 - Gold Medal 
 
 - Outstation Sports Fests
+	* 2013, Bronze Medal, IIT Jodhpur 
 	* 2014, Gold Medal, IIT BHU
-	* 2015, Gold Medal, IIT Roorkee 
 	* 2016, Gold Medal, National Law University 
 
-## LEADERSHIP EXPERIENCE AND ACTIVITIES
 
-- Campdiaries Apr 2017 - Dec 2018
-	* Volunteer 
-- BITS-Pilani Lawn Tennis Team Aug 2012 - May 2016
-	* Captain (Jan 2015 – May 2015) 
--  Kairali: Association of students from Kerala  Sep 2012 - May 2015
-	* Secretary (Aug 2014 – May 2015)
--  Mechanical Engineering Association – Sep 2013 - May 2015
-	* Design Team head (Aug 2014 – May 2015) 
 
