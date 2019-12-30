@@ -4,7 +4,7 @@
 The data was collected as part of a study using followers of the Twitter account of a huge consumer brand. The brand wants to understand its twitter audience better to fine-tune its Twitter posts. To achieve this, they collected every twitter post of a sample of its followers and each post was examined by Amazon’s Mechanical Turk and was categorized into different interest areas.
 >  The task is to analyze this data and identify any interesting market segments among the social media followers.
 
-### The Dataset
+## The Dataset
 
 Let’s look at the data.
 
@@ -17,7 +17,7 @@ Each row in the data represents a user and the column represents the interests o
 
 There are 36 broad categories that a user can post about. After examining the 36 columns, I suspect correlation among these variables. Let’s look at the correlation plot.
 
-### Correlation plot
+## Correlation plot
 
     cormat <- round(cor(social_m_raw[,2:37]), 2)
     corrplot(cormat, method=”circle”)
@@ -26,7 +26,7 @@ There are 36 broad categories that a user can post about. After examining the 36
 
 A lot of variables are correlated with each other. For instance, personal fitness and healthy nutrition are highly correlated. Also, online gaming and college university variables have a high correlation. Let’s use PCA to reduce the dimensions to create a fewer number of uncorrelated variables.
 
-### Why PCA? 
+## Why PCA? 
 
 Principal Component Analysis is a type of dimension reduction. PCA creates uncorrelated principal components from the original correlated variables such that the principal components are the linear combination of the original variables. The principal components are ranked in the order the proportion of variance explained. For instance, the first principal component explains the highest proportion of variation among all other principal components.
 
@@ -73,7 +73,7 @@ Now let’s use the new data in the principal component space to run clustering.
     X <- pc_data
     
 
-### K-means clustering 
+## K-means clustering 
 
 Let’s use the kmeans++ initialization this time.
 
@@ -108,7 +108,7 @@ It is hard to decide the K here as we do not see an obvious elbow point. How do 
 
 As we can see the data points are reasonably seperated with K = 5. Let’s use the cluster centers values to identify the differentiating characteristics of each cluster. Plot the cluster center value for each of the original column values to segment the customers and arrive at the final insights. 
 
-### Results
+## Results
 
 Market segments identified:
 
@@ -146,7 +146,7 @@ Market segments identified:
 
 1. News, Current Events and Food
 
-### Conclusion
+## Conclusion
 
 Based on the K-Means clustering, we can identify distinct market segments that the firm can potentially leverage to design specific marketing campaigns. For example, Cluster 1— “ Online gaming, News, Travel” and Cluster 3— “College/university, Religion, TV & film” differ vastly in terms of interests. Cluster 3 consists mainly of religious college students who love TV and film shows. Furthermore, the individuals in this cluster are not inclined towards online-gaming or travel. However, cluster 1 individuals love online-gaming and traveling and do not like dating or art. Cluster 2 consists of individuals inclined towards shopping and art. People in cluster 4 are interested in Sports Fandom, Travel, Cooking while they are not so interested in current events, crafts or small business topics. In contrast, cluster 5 consists of people who have a penchant for news and current events. The cluster 5 individuals are also interested in personal fitness and fashion.
 
