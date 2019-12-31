@@ -278,6 +278,7 @@ As one of the next steps,  I could try out other model architectures. Hopefully,
 [**Understanding Semantic Segmentation with UNET**
 *A Salt Identification Case Study*towardsdatascience.com](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 
+['Inference Kernel](https://www.kaggle.com/meaninglesslives/lyft3d-inference-prediction-visualization)
 
 ## Project repository & Kaggle Profile
 
@@ -286,3 +287,4 @@ As one of the next steps,  I could try out other model architectures. Hopefully,
 
 [**Sijo VM | Kaggle**
 *Download Open Datasets on 1000s of Projects + Share Projects on One Platform. Explore Popular Topics Like Government…*www.kaggle.com](https://www.kaggle.com/sijovm)
+
